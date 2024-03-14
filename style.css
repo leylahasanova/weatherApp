@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(144, 150, 172);
+    align-items: center;
+}
+.search  {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: start;
+    margin: 20px;
+    gap: 10px;
+}
+.main {
+    width: 400px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222, 227, 249);
+    opacity: 0.5;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.result {
+    line-height: 1.5;
+}
